@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.0
+    },
+    "name": "Bionic Intelegence",
+    "description": "You are the smartest thing in the world allowing you to gain more xp"
+}

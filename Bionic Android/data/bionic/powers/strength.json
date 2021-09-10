@@ -1,0 +1,15 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 3,
+    "duration_per_stack": 11,
+    "effect": {
+    "effect": "minecraft:strength",
+    "amplifier": 5,
+    "is_ambient": true,
+    "show_icon": true,
+    "show_particles": false
+    },
+    "name": "Iron Fists",
+    "description": "You dont use weapons as you dont need them"
+    }

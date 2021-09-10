@@ -1,0 +1,31 @@
+{
+	"powers": [
+		"bionic:jump",
+		"bionic:strength",
+		"bionic:speed",
+		"bionic:regen",
+		"bionic:food",
+		"bionic:food2",
+		"bionic:temprature",
+		"bionic:fire_damage",
+		"bionic:smart",
+		"bionic:scan",
+		"bionic:scantoggle",
+		"bionic:saturation",
+		"bionic:sphere",
+		"bionic:trade",
+		"bionic:water",
+		"origins:water_vulnerability",
+		"bionic:vision",
+		"bionic:weapon",
+		"bionic:mesa",
+		"bionic:nether",
+		"bionic:icy"
+
+	],
+	"icon": "minecraft:nether_star",
+	"order": 10,
+	"impact": 3,
+	"name": "Bionic Android",
+	"description": "You are the first android to live and think like a human"
+}

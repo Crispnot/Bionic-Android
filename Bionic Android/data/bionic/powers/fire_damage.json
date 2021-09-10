@@ -1,0 +1,11 @@
+{
+    "type": "origins:modify_damage_taken",
+    "equation": "multiply",
+    "value": 2,
+    "condition": {
+    "type": "damage_condition",
+    "name": "fire"
+    },
+    "name": "Melting",
+    "description": "Your made of metal so being on fire damages your skeleton"
+    }

@@ -1,0 +1,22 @@
+{
+    "type": "origins:multiple",
+
+    "arrow": {
+        "type":"origins:fire_projectile",
+        "hud_render": {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 4
+        },
+        "cooldown": 120,
+        "entity_type": "minecraft:spectral_arrow",
+        "sound": "entity.shulker.shoot",
+        "speed": 9,
+        "count": 1,
+        "divergance": 0,
+        "tag": "{pickup:0b}",
+        "key": "primary"
+    },
+    "name": "Energy Sphere",
+    "description": "Release a powerful blast of energy"
+}

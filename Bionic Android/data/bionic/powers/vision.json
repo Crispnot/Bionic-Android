@@ -1,0 +1,28 @@
+{
+    "type": "origins:multiple",
+    "night": {
+        "type": "origins:night_vision",
+        "strength": 0.4,
+        "conditions": [
+          {
+            "type": "origins:submerged_in",
+          "fluid": "minecraft:water",
+          "inverted": true
+          },
+          {
+            "type": "origins:power_active",
+            "power": "bionic:scantoggle"
+          }
+        ]
+      },
+      "blind": {
+            "type": "origins:shader",
+            "shader": "minecraft:shaders/post/sobel.json",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "bionic:scantoggle"
+            }
+        
+      },
+      "hidden": true
+}

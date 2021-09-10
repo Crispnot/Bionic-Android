@@ -1,0 +1,10 @@
+{
+    "type": "origins:toggle",
+    "name": "Temprature Scan",
+    "description": "You can toggle being able to see all entities through blocks with your secondary key",
+    "key": {
+        "continuous": false,
+        "key": "key.origins.secondary_active"
+    },
+    "active_by_default": true
+}

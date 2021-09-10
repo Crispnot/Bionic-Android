@@ -1,0 +1,16 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 3,
+    "duration_per_stack": 11,
+    "effect": {
+    "effect": "minecraft:speed",
+    "amplifier": 2,
+    "is_ambient": true,
+    "show_icon": false,
+    "show_particles": false
+    },
+    "name": "Next Generation",
+    "description": "You the next generation of technology designed to be stronger faster and smarter than humans"
+    
+    }

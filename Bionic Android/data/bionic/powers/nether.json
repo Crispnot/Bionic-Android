@@ -1,0 +1,23 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect":
+    {
+        "duration": 0,
+        "is_ambient": false,
+        "show_particles": true,
+        "show_icon": true,
+        "effect": "wither",
+        "amplifier": 1
+    },
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:category",
+            "category": "nether"
+        }
+    },
+    "hidden": true
+}

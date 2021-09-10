@@ -1,0 +1,30 @@
+{
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 1,
+    "damage_easy": 1,
+    "damage": 8,
+    "damage_source": {
+    "name": "hurt_by_water",
+    "unblockable": true,
+    "bypasses_armor": true
+    },
+    "protection_enchantment": "water_protection",
+    "protection_effectiveness": 2,
+    "condition": {
+    "type": "origins:or",
+    "conditions": [
+    {
+    "type": "origins:fluid_height",
+    "fluid": "minecraft:water",
+    "comparison": ">",
+    "compare_to": 0.0
+    },
+    {
+    "type": "origins:in_rain"
+    }
+    ]
+    },
+    "name": "Short Circuit",
+    "description": "Water can seep through your exoskeleton and damage your technology"
+    }
